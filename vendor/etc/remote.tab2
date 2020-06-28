@@ -1,0 +1,57 @@
+custom_name = amlogic-remote-2
+custom_code = 0xfe01
+release_delay = 80
+
+fn_key_scancode = 0x00
+cursor_left_scancode = 0x51
+cursor_right_scancode = 0x50
+cursor_up_scancode = 0x16
+cursor_down_scancode = 0x1a
+cursor_ok_scancode = 0x13
+key_begin
+	0x01 11   #0
+        0x4e 2    #1
+        0x0d 3    #2
+        0x0c 4    #3
+        0x4a 5    #4
+        0x09 6    #5
+        0x08 7    #6
+        0x46 8    #7
+        0x05 9    #8
+        0x04 10   #9
+        0x49 63   #F1
+        0x48 78   #F2
+        0x4d 75   #F3
+        0x03 76   #F4
+        0x43 77   #F5
+        0x45 64   #F6
+        0x0f 65   #F7
+        0x44 66   #F8
+        0x12 67   #F9
+        0x4b 68   #F10
+        0x26 69   #F11
+        0x16 103  #UP
+        0x1a 108  #DOWN
+        0x51 105  #LEFT
+        0x50 106  #RIGHT
+        0x13 28   #ENTER
+        0x19 158  #BACK
+	0x00 127  #SEARCH
+        0x4c 125  #MENU
+        0x40 116  #POWER
+        0x41 113  #MUTE
+        0x18 115  #VOLUMEUP
+        0x10 114  #VOLUMEDOWN
+        0x11 102  #HOME
+        0x0a 111  #MUSIC
+        0x42 14  #DELETE
+        0x47 215  #AT
+        0x0e 70  #EXPLORER
+        0x59 122 #MEDIAPREVIOUS
+        0x58 123 #MEDIANEXT
+        0x54 120 #MEDIAFASTFORWARD
+        0x52 124  #MEDIAPAUSE
+        0x5a 119 #MEDIAPLAYPAUSE
+        0x55 121 #MEDIAREWIND
+	0x1b 188 #AGING
+key_end

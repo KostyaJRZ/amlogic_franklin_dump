@@ -1,0 +1,15 @@
+kernel=kernel
+ramdisk=ramdisk
+second=second.img
+dt=dt.img
+page_size=2048
+kernel_size=9553472
+ramdisk_size=0
+second_size=82807
+dtb_size=1
+base_addr=0x01078000
+kernel_offset=0x00008000
+ramdisk_offset=0xfff88000
+tags_offset=0xfef88100
+cmd_line='androidboot.dtbo_idx=0 --cmdline root=/dev/mmcblk0p18 buildvariant=userdebug'
+board=""
